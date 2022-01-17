@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon server"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/WhysoSarthak/Real-Time-Chat-Application/issues"
   },
-  "homepage": "https://github.com/WhysoSarthak/Real-Time-Chat-Application#readme"
+  "homepage": "https://github.com/WhysoSarthak/Real-Time-Chat-Application#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
