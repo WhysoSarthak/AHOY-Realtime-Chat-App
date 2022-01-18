@@ -10,7 +10,7 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: #f8f8f8;
+    background: #F8F8F8;
     font-family: 'Roboto', sans-serif;
 }
 section.chat__section {
@@ -49,15 +49,17 @@ textarea {
 }
 
 .message {
-    padding: 20px; 
+    padding: 8px; 
     border-radius: 4px; 
     margin-bottom: 40px;
     max-width: 300px;
-    position: relative;
+    position:relative;
 }
 .incoming {
     background: #8F8BE8;
     color: #fff;  
+    margin-right: auto;
+    left: 0;
 }
 .outgoing {
     background: #e9eafd;
@@ -66,8 +68,8 @@ textarea {
 }
 .message h4 {
     position: absolute;
-    top: -17px;
-    left: 0;
-    color: rgb(26, 46, 0);
+    top: -20px;
+    left: 5;
+    color: #333;
     font-size: 14px;
 }
